@@ -44,6 +44,15 @@ class WaypointUpdater(object):
 
     def pose_cb(self, msg):
         # TODO: Implement
+        self.pos_x = msg.pose.position.x
+        # pos_y
+        # pos_z
+        #
+        # ori_x
+        # ori_y
+        # ori_z
+        # ori_w
+
         pass
 
     def waypoints_cb(self, waypoints):
